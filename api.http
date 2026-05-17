@@ -1,0 +1,23 @@
+//@host = http://localhost:5000
+@host = http://localhost:8080
+
+### Create Product
+POST {{host}}/products
+Content-Type: application/json
+
+{
+ "name": "Acer Laptop",
+ "price": 1100
+}
+
+### Get Products
+GET {{host}}/products
+
+### Delete Products
+DELETE {{host}}/products/826ef265-f25a-452f-aa2e-710e7ba2c523
+
+### Get paged products (pagination)
+GET {{host}}/products/paged?page=2&pageSize=2
+
+### Search products by name
+GET {{host}}/products/search?name=Acer Laptop
