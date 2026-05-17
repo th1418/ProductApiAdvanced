@@ -6,7 +6,7 @@ POST {{host}}/products
 Content-Type: application/json
 
 {
- "name": "Acer Laptop",
+ "name": "Asus Laptop",
  "price": 1100
 }
 

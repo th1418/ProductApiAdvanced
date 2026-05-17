@@ -124,3 +124,6 @@ app.MapGet("/products/search",
 });
 
 app.Run();
+public partial class Program
+{
+}
